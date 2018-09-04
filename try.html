@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Contextual Classes</h2>
+    <p>Contextual classes can be used to color table rows or table cells. The classes that can be used are: .active, .success, .info, .warning, and .danger.</p>
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Default</td>
+          <td>Defaultson</td>
+          <td>def@somemail.com</td>
+        </tr>      
+        <tr class="success">
+          <td>Success</td>
+          <td>Doe</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr class="danger">
+          <td>Danger</td>
+          <td>Moe</td>
+          <td>mary@example.com</td>
+        </tr>
+        <tr class="info">
+          <td>Info</td>
+          <td>Dooley</td>
+          <td>july@example.com</td>
+        </tr>
+        <tr class="warning">
+          <td>Warning</td>
+          <td>Refs</td>
+          <td>bo@example.com</td>
+        </tr>
+        <tr class="active">
+          <td>Active</td>
+          <td>Activeson</td>
+          <td>act@example.com</td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="container">
+      <h2>To know more</h2>
+      <p>click to know more.</p>
+      <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#remo">Some more info</button>
+      <div id="remo" class="collapse">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </div>
+    </div><br>
+
+    <div class="btn-group">
+      <button type="button" class="btn btn-primary">cheers
+       <span class="glyphicon glyphicon-glass"></span></button>
+       <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" role="menu">
+        <li><a href="#">test1</a></li>
+        <li><a href="#">test2</a></li>
+      </ul>
+    </div>
+    <br>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li>
+          <li><a href="#">Page 3</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="media">
+      <div class="media-left">
+       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqfYOpIsjIBpkAAR1HHsOx7gXn4tTNHca_c3N-qE-iePxJ-5pE" class="media-object" style="width:300px"></div>
+       <div class="media-body">
+         <h4 class="media-heading"><i><strong>Doggy</strong></i></h4>
+         <p>The origin of the domestic dog is not clear. It is known that the dog was the first domesticated species.[13][15] The domestic dog is a member of the genus Canis (canines), which forms part of the wolf-like canids,[5] and is the most widely abundant terrestrial carnivore.[6][7][8][9][10] The closest living relative of the dog is the gray wolf and there is no evidence of any other canine contributing to its genetic lineage.[7][8][47][11] The dog and the extant gray wolf form two sister clades,[11][12][13] with modern wolves not closely related to the wolves that were first domesticated.[12][13] The archaeological record shows the first undisputed dog remains buried beside humans 14,700 years ago,[48] with disputed remains occurring 36,000 years ago.[49] These dates imply that the earliest dogs arose in the time of human hunter-gatherers and not agriculturists</p></div></div>
+         
+         <!-- can also be used in paragraph anywhere-->
+         
+         <a href="#" data-toggle="tooltip" title="Hooray!" data-placement="top">tooltip example</a>
+
+
+         <div class="media">
+          <div class="media-body">
+            <h4 class="media-heading">Dogggg</h4>
+            <p>Dog intelligence is the ability of the dog to perceive information and retain it as knowledge for applying to solve problems. Dogs have been shown to learn by inference. A study with Rico showed that he knew the labels of over 200 different items. He inferred the names of novel items by exclusion learning and correctly retrieved those novel items immediately and also 4 weeks after the initial exposure. Dogs have advanced memory skills. A study documented the learning and memory capabilities of a border collie, "Chaser", who had learned the names and could associate by verbal command over 1,000 words. Dogs are able to read and react appropriately to human body language such as gesturing and pointing, and to understand human voice commands. Dogs demonstrate a theory of mind by engaging in deception. An experimental study showed compelling evidence that Australian dingos can outperform domestic dogs in non-social problem-solving, indicating that domestic dogs may have lost much of their original problem-solving abilities once they joined humans.[111] Another study indicated that after undergoing training to solve a simple manipulation task, dogs that are faced with an insoluble version of the same problem look at the human, while socialized wolves do not.[112] Modern domestic dogs use humans to solve their problems for them.[113][114].</p>
+          </div>
+          <div class="media-right">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqfYOpIsjIBpkAAR1HHsOx7gXn4tTNHca_c3N-qE-iePxJ-5pE" class="media-object" style="width:300px">
+          </div>
+        </div>
+        <div class="container">
+          <h2>Modal Example</h2>
+          
+          <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">click to see modal</button>
+
+          
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+              
+              
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">header</h4>
+                </div>
+                <div class="modal-body">
+                  <p>modal content</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          
+        </div>
+        <br>
+        <p>About Valcano
+          <pre class="pre-scrollable">"Volcano" is the second episode of the
+           American animated television 
+           series South Park. It originally aired on 
+           \Comedy Central in the United States on August 20, 1997.[2] In the episode, Stan, Kyle, Cartman and Kenny go on a hunting trip with Stan's uncle Jimbo and his war buddy Ned. While on the trip, Stan is frustrated by his inability to shoot a living creature and Cartman tries to scare the hunting party with tales of a creature named Scuzzlebutt. Meanwhile, the group is unaware that a nearby volcano is about to erupt.
+
+           The episode was written by series co-creators Trey Parker and Matt Stone. It was inspired by the 1997 disaster films Volcano and Dante's Peak, both of which Parker and Stone strongly disliked. The plot was also based on the large amount of hunting Parker and Stone witnessed while growing up in Colorado; Stan's hesitation about the sport mirrors Parker's real-life feelings about hunting. "Volcano" was the third episode produced, but it was broadcast as the second. Parker and Stone felt the computer animation in "Volcano" had greatly improved compared to the early episodes; they were particularly pleased with the lava, which was made to resemble orange construction paper.
+
+           "Volcano" received generally positive reviews and was nominated for a 1997 Environmental Media Award. Slightly more than 1 million viewers watched the original broadcast, according to Nielsen ratings. The episode featured the first appearances of recurring characters Ned Gerblansky and Randy Marsh. The latter, who is also the town geologist, is established as Stan's father in later episodes. It also marked the first of two appearances for Scuzzlebutt, who became a popular minor character and appeared in the video games South Park 10: The Game and South Park Rally. The episode parodied the Duck and Cover educational videos from the 1950s and 1960s that advised people to hide under tables in the event of a nuclear attack.</pre>
+           <p class="well">There are a few exceptions to the general rule of using a before words that start with consonants and an before words that begin with vowels. The first letter of the word honor, for example, is a consonant, but it’s unpronounced. In spite of its spelling, the word honor begins with a vowel sound. Therefore, we use an. Consider the example sentence below for an illustration of this concept.</p>
+         </div>
+
+       </body>
+       </html>

@@ -1,0 +1,52 @@
+*
+     ul
+       {
+
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+             
+       }
+ 	  li
+ 	  { 
+      float:left;
+      text-decoration: none;
+      letter-spacing: 3px;
+      margin:20px;	
+      border-bottom: 1px solid coral;  
+    } 
+ 	  li a
+ 	  {
+ 	  	display: block;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        
+ 	  }
+ 	  li a:hover
+ 	  {
+ 	  	background-color: grey;
+      
+ 	  }
+ 	  .frame
+ 	  {
+ 	  	 height:275px;
+ 	  	 width:600px;
+ 	     float:right;
+ 	  }
+ 	  .add
+ 	  {
+ 	  	text-align: right;
+ 	  	color:silver;
+ 	  }
+ 	  .a{
+ 	  	color:red;
+      text-align:right;
+
+ 	  }
+ 	  .b
+ 	  {
+ 	  	color:yellow;
+ 	  }
